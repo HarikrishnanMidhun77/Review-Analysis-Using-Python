@@ -1,0 +1,10 @@
+camera
+focus
+shoot
+shot
+click
+megapixel
+pixel
+photo
+lens
+snap

@@ -1,0 +1,32 @@
+seen2 = set()
+synonym_nd= []
+for item in synonyms:
+    if item not in seen2:
+        seen2.add(item)
+        synonym_nd.append(item)
+for i in synonyms_nd:
+	print i
+	
+	
+	seen2 = set()
+for i in synonyms:
+	for j in i:
+		seen2.add(j)
+
+print list(seen2)
+
+synonyms = set()
+wdsyns = set()
+ 
+for i in topics:  #make a function syns(word) that accept a word and returns list synonyms of it
+	for syn in wordnet.synsets(i):
+		for l in syn.lemmas():
+		    wdsyns.add(l.name())
+		print wdsyns
+		#wdsyns=list(set(wdsyns))
+	synonyms.add(tuple(wdsyns))	
+#synonyms=list(set(synonyms))
+
+for i in synonyms:
+	print i
+	print "\n"

@@ -1,0 +1,10 @@
+smart 
+smooth 
+speed 
+fast 
+heating
+heat
+hot
+easy
+hard
+crash

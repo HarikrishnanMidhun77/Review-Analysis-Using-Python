@@ -1,0 +1,6 @@
+speaker
+mic
+microphone
+loud
+headset
+earphone
